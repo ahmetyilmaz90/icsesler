@@ -1,0 +1,24 @@
+/proje-adin
+├── /app                # Uygulamanın çekirdek kodları
+│   ├── /Controllers    # İstekleri karşılayan sınıflar
+│   ├── /Models         # Veritabanı işlemleri ve tablolar
+│   ├── /Core           # Yönlendirme (Routing) ve ana sınıflar
+│   └── /Helpers        # Yardımcı fonksiyonlar (string temizleme, log vb.)
+├── /config             # Yapılandırma dosyaları
+│   ├── config.php      # Genel ayarlar
+│   └── database.php    # Veritabanı bağlantı ayarları
+├── /public             # Dış dünyaya açık olan tek klasör
+│   ├── /css            # Stil dosyaları
+│   ├── /js             # JavaScript dosyaları
+│   ├── /images         # Görseller
+│   ├── .htaccess       # URL yönlendirme kuralları (Pretty URLs)
+│   └── index.php       # Uygulamanın giriş noktası
+├── /resources          # Ham kaynaklar
+│   └── /views          # HTML/PHP arayüz dosyaları
+├── /storage            # Yüklenen dosyalar ve loglar
+│   ├── /uploads
+│   └── /logs
+├── /vendor             # Composer kütüphaneleri (otomatik oluşur)
+├── .env                # Hassas bilgiler (DB şifreleri vb.)
+├── composer.json       # Bağımlılık yönetimi
+└── README.md           # Proje dökümantasyonu

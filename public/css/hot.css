@@ -1,0 +1,43 @@
+.hot-strip {
+  background: linear-gradient(135deg, #fff0f3, #fefce8);
+  border-top: 1px solid var(--border); 
+  border-bottom: 1px solid var(--border);
+  padding: 18px 40px;
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  overflow: hidden;
+}
+
+.hot-label {
+  font-family: var(--font-important); 
+  font-size: 14px;
+  color: var(--pink); 
+  white-space: nowrap;
+  display: flex; 
+  align-items: center; 
+  gap: 6px;
+}
+
+.hot-scroll { 
+  overflow: hidden; 
+  flex: 1; 
+}
+
+.hot-track {
+  display: flex; 
+  animation: marquee 32s linear infinite; 
+  white-space: nowrap;
+}
+
+.hot-item {
+  font-size: 13px; 
+  font-weight: 600; 
+  color: var(--normal);
+  padding: 0 28px; 
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+
+@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }

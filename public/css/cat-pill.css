@@ -1,0 +1,14 @@
+.cat-pill {
+  font-weight: 700; 
+  color: var(--normal);
+  white-space: nowrap;
+}
+
+/*Tüm cat-pillerin özel hoverlarını ekledik*/
+.cat-pill.love{color:#fff;      background-color:var(--pink); }
+.cat-pill.school{color:#fff;    background-color:var(--purple); }
+.cat-pill.family{color:#fff;      background-color:var(--cyan); }
+.cat-pill.friend{color:#fff;     background-color:var(--green); }
+.cat-pill.funny{color:#fff;    background-color:var(--orange); }
+.cat-pill.work{color:#fff; background-color:var(--dark-cyan); }
+.cat-pill.other{color:#fff;    background-color:#ccc; }
