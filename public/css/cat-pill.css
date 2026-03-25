@@ -2,6 +2,8 @@
   font-weight: 700; 
   color: var(--normal);
   white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /*Tüm cat-pillerin özel hoverlarını ekledik*/
